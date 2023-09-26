@@ -2,7 +2,7 @@ button = document.getElementById("troll_button");
 
 function troll(){
     button.textContent = "Mhmm.....";
-    document.getElementById("text").innerHTML = "Andrew tate says 'DO IT YOUR SELF!'";
+    document.getElementById("text").innerHTML = "Andrew tate says 'DO IT YOURSELF!'";
     document.getElementById("andrew_tate").src = "andrew_tate.gif";
     var audio = document.createElement("audio");
     audio.src = "Andrew Tate Theme - TOP G.mp3";
